@@ -1,0 +1,24 @@
+.newsCard{
+    position: relative;
+    margin-top: 50px;
+    .title{
+        position: relative;
+        padding:10px;
+    }
+    .newsBody{
+        display: flex;
+        margin: 1rem 0;
+        img{
+            width: 50%;
+            height: 50%;
+        }
+        .des{
+            position: absolute;
+            width: 50%;
+            top: 20%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            transform: translateX(100%);
+        }
+    }
+}

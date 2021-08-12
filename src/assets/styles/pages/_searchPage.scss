@@ -1,0 +1,56 @@
+.toolbar{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+
+    img{
+        margin-right: 1rem;
+    }
+    .PiraNews{
+        padding-top: 10px;
+        font-family: 'Palette Mosaic', cursive;
+        font-size: x-large;
+    }
+}
+
+.searchbar-con{
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+
+    .searchbar{
+        @media (max-width:375px) {
+            width: 90%;
+        }
+        @media (min-width:375px) {
+            width: 50%;
+        }
+    }
+     
+}
+.newsCard{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsContainer{
+    text-align: center;
+
+    .newsCard{  
+
+        @media (max-width:375px) {
+            width: 50%;
+        }
+        @media (min-width:375px) {
+            width: 90%;
+        }
+    
+    }
+}
+
+.footer{
+    padding:10px 0 10px 0;
+    width: 100%;
+    background-color: rgb(240, 175, 56)
+}
