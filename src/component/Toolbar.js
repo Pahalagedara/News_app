@@ -10,7 +10,7 @@ const Toolbar = () => {
                 height="70px"
                 width="70px"
             />
-            <h4 className="PiraNews">PiraNews</h4>
+            <h4 className="piraNews">PiraNews</h4>
         </div>
     )
 }

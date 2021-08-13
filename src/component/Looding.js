@@ -3,7 +3,7 @@ import ReactLoading from 'react-loading';
 
 const Looding = () => {
     return (
-        <ReactLoading type="spinningBubbles"color='black' height={'50px'} width={'50px'} />
+        <ReactLoading className="looding" type="spinningBubbles"color='black' height={'20px'} width={'20px'} />
     )
 }
 

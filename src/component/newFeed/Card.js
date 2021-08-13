@@ -14,9 +14,8 @@ const Card = (props) => {
                 />
 
                 <div className="des">
-                    <p>{description} </p>
-                    <p>{publishedAt}</p>
-                    <a href={url}>Click for More</a>
+                    <p>{description} </p>                  
+                    <a href={url} className="seeMore">See More</a>
                 </div>
             </div>
         </div>
