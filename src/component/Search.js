@@ -15,8 +15,6 @@ const Search = (props) => {
     const dataFletch =  async() => {
         await axios.get(url)
             .then((res) => {
-                console.log("url" + url)
-                console.log("keword"+keyword)
                 const data = res.data;
                 const body = data.articles
                 setIsLoading(false)
@@ -25,6 +23,7 @@ const Search = (props) => {
 
             .catch((error) => {
                 console.log(error);
+                setData(error);
                 setIsLoading(false)
             })
     }
